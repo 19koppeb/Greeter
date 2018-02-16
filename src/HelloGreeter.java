@@ -6,6 +6,11 @@ public class HelloGreeter {
 
 		Greeter bob = new Greeter();
 		System.out.println(bob.toString());
+		
+		Greeter[] tim = new Greeter[10];
+		for(int i = 0; i<tim.length;i++) {
+			System.out.println(tim[i].toString());
+		}
 	
 	
 	
