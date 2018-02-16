@@ -4,7 +4,8 @@ public class HelloGreeter {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		System.out.println("Hello World");
+		Greeter bob = new Greeter();
+		System.out.println(bob.toString());
 	
 	
 	
